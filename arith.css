@@ -1,0 +1,536 @@
+/* ---------------------------------------------------------------- */
+/* ARITH 18 CSS                                                     */
+/* L. Imbert & A. Tisserand then others                             */
+/*                                                                  */
+/* ---------------------------------------------------------------- */
+
+
+body
+{
+  background-color: #FFFFFF;
+  color: black;
+  margin: 0;
+  padding: 0;
+	font-family: Arial, Helvetica, sans-serif; /* first try Arial, if not available Helvetica, otherwise whatever sans serif is available */
+}
+
+h2
+{
+  background-color: #FFFFFF;
+  /* color: #000073; Previous blue */
+  color: #464EA1;
+}
+
+h1
+{
+  /* color: #000073; Previous blue */
+  color: #464EA1;
+  margin: 0.3em;
+}
+
+h2
+{
+  margin: 0.6em;
+}
+
+h3
+{
+  margin: 1em;
+}
+
+p, ul, dl
+{
+  margin-left: 2em;
+  margin-right: 1em;
+}
+
+hr
+{
+  width: 95%;
+  /* border: 1px solid #0868AC; Previous blue */
+  border: 1px solid #464EA1;
+}
+
+p.important
+{
+  text-align: center;
+  font-weight : bold;
+}
+
+a
+{
+  /* color: #000073; Previous blue */
+  color: #464EA1;
+}
+
+div.copyright_image
+{
+	position: relative;
+  text-align: left;
+  width: max-content;
+  padding-bottom: 40px;
+}
+
+div.copyright
+{
+  font-size: small;
+	position: absolute;
+	text-align: left;
+	vertical-align: center;
+  bottom: 10;
+  right: 0;
+  z-index: 1;
+/*  transform: rotate(90deg);
+  border:solid;
+  border-color:red;
+ */
+}
+
+div.caption
+{
+	position: absolute;
+	text-align: left;
+	vertical-align: center;
+  bottom: 10;
+  left: 0;
+  z-index: 1;
+}
+
+div.sponsors
+{
+    padding-left: -12px;
+    margin-left: -12px;
+}
+
+/* ---------------------------------------------------------------- */
+
+#header, #footer
+{
+  color: black;
+  margin: 0;
+  padding: 1em;
+}
+
+#header
+{
+  /* border-bottom: 3px solid #0868AC; Previous blue */
+  border-bottom: 3px solid #464EA1;
+  text-align: center;
+}
+
+#header h1, #header h2
+{
+  /* color: #000073; Previous blue */
+  color: #464EA1;
+  margin: 0;
+}
+
+#header h3
+{
+  /* color: #0868AC; Previous blue */
+  color : #464EA1;
+  margin: 2em 0 2em 0;
+}
+
+#header .left
+{
+/*  float: left; */
+}
+
+#footer
+{
+  /* border-top: 3px solid #0868AC; Previous blue */
+  border-top: 3px solid #464EA1;
+}
+
+#footerl
+{
+  text-align: left;
+  font-family: arial;
+	
+}
+
+#footerr
+{
+  text-align: right;
+  float: right;
+	font-size:0.8em;
+}
+
+#footer img
+{
+  height: 25px;
+  padding-left: 10px;
+  vertical-align: -7px;
+}
+
+/* ---------------------------------------------------------------- */
+
+#menu
+{
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+#menu a
+{
+  /* color: #000073; Previous blue */
+  color: #464EA1;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  width: 8.5em;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  padding: 0 0 0 0.4em;
+  margin: 0.4em 0;
+  border-left: 1.2em solid #BDD2E6;
+}
+
+#menu a.current
+{
+  /* border-left: 1.2em solid #0868AC; Previous blue */
+  border-left: 1.2em solid #464EA1;
+}
+
+#menu a.current:hover
+{
+  /* border-left: 1.2em solid #0868AC; Previous blue */
+  border-left: 1.2em solid #464EA1;
+}
+
+#menu a:visited, #menu a:link
+{
+  background-color: #FFFFFF;
+  font-weight: bold;
+}
+
+#menu a:hover
+{
+  background-color: #BDD2E6;
+  /* color: #000073; Previous blue */
+  color: #464EA1;
+  font-weight: bold;
+  border-left: 1.2em solid #D90000;
+}
+
+#menu p
+{
+  margin: 1em;
+}
+
+#menu hr
+{
+  /* border: 1px solid #0868AC; Previous blue */
+  border: 1px solid #464EA1;
+  width: 90%;
+}
+
+/* ---------------------------------------------------------------- */
+
+#content
+{
+  margin-left: 12.5em;
+  padding: 0.5em 0;
+  /* border-left: 3px solid #0868AC; Previous blue */
+  border-left: 3px solid #464EA1;
+}
+
+/* ---------------------------------------------------------------- */
+
+#news
+{
+  float: right;
+  border: 3px solid #FF0000;
+  width: 15em;
+  margin: 1em;
+}
+
+#news h2
+{
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  padding: 0.1em 0 0.2em 0.2em;
+  margin: 0;
+  color: white;
+  background-color: #FF0000;
+}
+
+#news h3, #news p
+{
+  padding: 0.2em;
+  margin: 0;
+}
+
+#news hr
+{
+  border: 1px solid #FF6666;
+  width: 90%;
+}
+
+/* ---------------------------------------------------------------- */
+
+#stats
+{
+  /* border: 3px solid #0868AC; Previous blue */
+  border: 3px solid #464EA1;
+  width: 9.5em;
+  margin: 0.4em;
+  padding: 0;
+}
+
+#stats h2
+{
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  padding: 0.1em 0 0.2em 0.2em;
+  margin: 0;
+  color: white;
+  /* background-color: #0868AC; Previous blue */
+  background-color: #464EA1;
+}
+
+#stats table
+{
+  border: 1px solid #BDD2E6;
+  font-size: small;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  width: 11.1em;
+}
+
+#stats table th
+{
+  background-color: #BDD2E6;
+  padding: 0 0.2em;
+  text-align: left;
+  /* color: #000073; Previous blue */
+  color: #464EA1;
+}
+
+#stats table th.sep
+{
+  border-top: 1px solid #BDD2E6;
+}
+
+#stats table td
+{
+  border: 1px solid #BDD2E6;
+}
+
+
+/* ---------------------------------------------------------------- */
+
+ul.program
+{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+	gap: 12px;
+}
+
+
+ul.committee
+{
+  margin: 0 2em;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.committee li
+{
+  margin: 0.3em 0;
+}
+
+/* ---------------------------------------------------------------- */
+
+.centered
+{
+  text-align: center;
+}
+
+/* ---------------------------------------------------------------- */
+
+table
+{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  /*border: 3px solid #FB1228; Previous red */
+  border: 3px solid #E51E25;
+  border-collapse: collapse;
+}
+
+table th
+{
+  font-family : helvetica, sans-serif;
+  font-weight : bold;
+  font-size: medium;
+  padding: 0.1em 0 0.2em 0.2em;
+  margin: 0;
+  color: white;
+  /* background-color: #FB1228; Previous red*/
+  background-color: #E51E25;
+}
+
+table th.center
+{
+  text-align: center;
+}
+
+table td
+{
+  /*border: 1px solid #FB1228; Previous red */
+  font-family : helvetica, sans-serif;
+  border: 1px solid #E51E25;
+}
+
+table td.center
+{
+  text-align: center;
+
+}
+
+table th, table td
+{
+  padding: 0.1em 0.3em;
+}
+
+table td.right
+{
+  text-align: right;
+}
+
+table td.left
+{
+  text-align: left;
+}
+
+table.large th, table.large td
+{
+  text-align: center;
+  padding: 0.1em 1em;
+}
+
+table.program
+{
+  margin-left: 3em;
+  margin-right: 3em;
+  border: 0px;
+}
+
+table.program td
+{
+  border: 0px;
+}
+
+table.program td.leftcol
+{
+  white-space: nowrap;
+  padding: 0 2em 0 0;
+  text-align: right;
+}
+
+/* ---------------------------------------------------------------- */
+
+#registration table
+{
+		border: 2px solid #464EA1;
+}
+
+#registration td
+{
+		border: 2px solid #464EA1;
+		text-align: center;
+}
+
+#registration th
+{
+		border: 2px solid #464EA1;
+		background-color: #BDD2E6;
+		color: #000000;
+		text-align: center;
+}
+
+#registration td.tleft, #registration th.tleft
+{
+		text-align: left;
+}
+
+.pheader {
+    color: #c00000;
+}
+
+.pheader strong {
+    color:black;
+}
+
+
+.pchair {
+    font-style: italic;
+}
+
+.pabstract {
+    font-size: smaller;
+    margin-left: 1em;
+    margin-top: -0.5ex;
+}
+
+/* ---------------------------------------------------------------- */
+
+#schedule {
+  all: unset; /* more on this below */
+  /* display: table; */
+  width: auto;
+  border-collapse: separate; /* or collapse if you want */
+  font-family: initial;
+  color: initial;
+}
+
+#schedule {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 0;
+}
+
+#schedule th {
+  border: 2px;
+  color: #000000;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+#schedule td,
+#schedule th {
+  padding: 8px;
+  border: none; /* or keep border if you want table lines */
+  text-align: left;
+  vertical-align: top;
+}
+
+#schedule td.time {
+  color: red;
+  width: 150px;
+}
+
+#schedule td.tleft,
+#schedule th.tleft {
+  text-align: left;
+}
+
+#schedule h3 {
+  margin: 0;
+}
+
+
+
+#glance td,
+#glance th {
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+}
