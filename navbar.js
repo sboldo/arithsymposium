@@ -4,7 +4,7 @@
 
 // Full ARITH pages:
     let menufiles=["index.html","committees.html","bylaws.html","archives.html","memoriam.html"];
-    let menuentries=["Main page","Committees","Bylaws","Archives","In memory"];
+    let menuentries=["Main page","Committees","Bylaws","Archives","In Memory"];
 
 		let url = window.location.pathname;
 		let filename = url.substring(url.lastIndexOf('/')+1);
